@@ -1,6 +1,5 @@
-_var = ""
-
 def on_forever():
-    global _var
-    _var = "Oana"
+    led.plot(3, 2)
+    basic.pause(100)
+    led.unplot(3, 2)
 basic.forever(on_forever)
